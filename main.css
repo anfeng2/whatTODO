@@ -1,0 +1,119 @@
+* {
+    /* font-family: 'Trebuchet MS', sans-serif; */
+    /* font-family: 'Lucida Console', monospace; */
+    /* font-family: 'Palatino', serif; */
+    /* font-family: 'Verdana', sans-serif; */
+    font-family: 'Helvetica', sans-serif;
+
+}
+
+body {
+    background-color: #A8D0E6;
+    margin: 0;
+}
+
+a {
+    color: #A8D0E6;
+    text-decoration: none;
+    /* padding: 18px; */
+    padding-right: 30px;
+    font-size: 21px;
+}
+
+nav {
+    background-color: #24305E;
+    /* background: #3c4593; */
+    color: #A8D0E6;
+    display: flex;
+    padding: 18px;
+}
+
+.left_links {
+    flex:1 1 200px;
+    padding-left: 30px;
+}
+
+.right_links {
+    display: inline-block;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 0px;
+    padding-left: 10%;
+}
+
+#dark_blue {
+    color: #374785;
+    margin: 0;
+    padding-right: 15px;
+    font-size: 57px;
+}
+
+#coral {
+    color: #F76C6C;
+    margin: 0;
+    font-size: 60px;
+}
+
+.wrap {
+    display: flex;
+    align-items: start;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #24305E;
+    color: #f9e8a1;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 5%;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.button {
+    all: unset;
+    background-color: #f9e8a1;
+    color:  #24305E;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 4px;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-top: 25px;
+    margin-left: 40%;
+    border-radius: 12px;
+}
+
+.bigcircle {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f9e8a1;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    padding: 20.5%;
+    border-radius: 50%;
+    border-color: #374785;
+    border-width: 15px;
+    border-style: solid;
+}
+
+.littlecircle {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F76C6C;
+    margin: 20px;
+    /* margin-right: 60px; */
+    /* margin-bottom: 50px; */
+    /* padding: 100%; */
+    /* border-radius: 50%; */
+    /* border-color: #374785; */
+    /* border-width: 15px; */
+    /* border-style: solid; */
+}
